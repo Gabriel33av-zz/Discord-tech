@@ -1,0 +1,35 @@
+*{
+    margin: 1;
+    padding: 0;
+}
+table, td, tr{
+    border: 1px solid #000;
+}
+table{
+    width: 700px;
+    height: 200px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+tr.title{
+    width: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+tr.primeirotime, tr.segundotime, tr.terceirotime{
+    width: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+tr.title{
+    background-color: green;
+}
+tr.primeirotime{
+    background-color: #d3d3d3;
+}
+tr.segundotime{
+    background-color: whitesmoke;
+}
+tr.terceirotime{
+    background-color: #d3d3d3;
+}
