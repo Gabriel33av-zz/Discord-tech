@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknisa Ex2</title>
+</head>
+<body>
+    <form>
+        <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label><br>
+                <input type="text" name="nome" id="nome" placeholder="Escreva seu nome..." required><br>
+            </div><br>
+        <!--selecione a linguem correta -->
+            <div class="campo">
+                <label><strong>Qual dessas é uma linguagem de marcação?</strong></label><br>
+                <label>
+                    <input type="radio" name="linguagem" value="HTML">HTML
+                </label><br>
+                <label>
+                    <input type="radio" name="linguagem" value="PHP">PHP
+                </label><br>
+                <label>
+                    <input type="radio" name="linguagem" value="JavaScript">JavaScript
+                </label>
+            </div><br>
+            <!--Botão termos<br:> de uso-->
+                <div>
+                    <label><strong>Li e concordo com os termos</strong></label><br>
+                    <imput type="radio" name="temos de uso" value="Li e concordo com os termos" required>
+                    <button class="botao" type="submit" onsubmit="">Submit</button>
+                    <imput>            
+
+                </div>
+            </fieldset> 
+    </body>
+</html>
